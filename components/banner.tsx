@@ -1,33 +1,33 @@
 import '../styles/globals.css'
 
-export default function Banner({ title, bio, twitter }: any) {
+
+export default function Banner({ title, bio, twitter, theme }: any) {
     return (
         `
-        <svg xmlns="http://www.w3.org/2000/svg" width="1980" height="1080" fill="none" role="img" aria-labelledby="descId">
+        <svg xmlns="http://www.w3.org/2000/svg" width="1500" height="500" fill="#000000" role="img" aria-labelledby="descId">
     <defs>
         <linearGradient id="myGradient" gradientTransform="rotate(90)">
-            <stop offset="15%" stop-color="rgba(0, 242, 246, 0.78)" />
-            <stop offset="85%" stop-color="rgba(238, 0, 238, 0.81)" />
+            <stop offset="5%" stop-color="${theme?.gradient_color1 || "#2A1157"}" />
+            <stop offset="95%" stop-color="${theme?.gradient_color2 || "#862263"}" />
         </linearGradient>
     </defs>
-    <title id="titleId">Anurag Hazra's GitHub Stats, Rank: S</title>
-    <desc id="descId">Total Stars Earned: 54210, Total Commits in 2023 : 54210, Total PRs: 585, Total Issues: 134,
-        Contributed to (last year): 7</desc>
+    <title id="titleId">${title}</title>
+    <desc id="descId">${title + bio + twitter}</desc>
     <style>
         .bg_gradient {
             fill: linear-gradient(to right, red, yellow);
         }
 
         .header {
-            font: 500 115px 'Segoe UI', Ubuntu, Sans-Serif;
-            fill: #ffffff;
+            font: 500 105px 'Segoe UI', Ubuntu, Sans-Serif;
+            fill: ${theme?.text_color || "#ffffff"};
             animation: fadeInAnimation 0.8s ease-in-out forwards;
             text-align: center;
         }
 
         .tagline {
-            font: 200 80px Cambria, Ubuntu, Sans-Serif;
-            fill: #ffffff;
+            font: 200 50px Cambria, Ubuntu, Sans-Serif;
+            fill: ${theme?.text_color || "#ffffff"};
             font-style: italic;
             animation: fadeInAnimation 0.8s ease-in-out forwards;
             text-align: center;
@@ -35,7 +35,7 @@ export default function Banner({ title, bio, twitter }: any) {
 
         .twitter {
             font: 200 40px Cambria, Ubuntu, Sans-Serif;
-            fill: #ffffff;
+            fill: ${theme?.text_color || "#ffffff"};
             font-style: italic;
             animation: fadeInAnimation 0.8s ease-in-out forwards;
             text-align: center;
@@ -48,20 +48,21 @@ export default function Banner({ title, bio, twitter }: any) {
         }
     </style>
 
-    <rect x="-5" y="0" width="1980" height="1080" fill="url(#myGradient)" class="bg_gradient" />
+    <rect x="-5" y="0" width="1500" height="500" fill="url(#myGradient)" class="bg_gradient" />
     <g data-testid="card-title" transform="translate(50%,50%)">
         <g transform="translate(0)" class="text_center">
-            <text class="header" data-testid="header">${title}</text>
+            <text x="-5" y="-40" class="header" data-testid="header">${title}</text>
         </g>
     </g>
     <g data-testid="card-tag" transform="translate(25,35)">
         <g transform="translate(0)" class="text_center">
-            <text x="-27.5" y="65" class="tagline" data-testid="tagline">${bio}</text>
+            <text x="-37.5" y="11.7" class="tagline" data-testid="tagline">${bio}</text>
         </g>
     </g>
     <g data-testid="card-twitter" transform="translate(50%,50%)" class="text_center">
         <g transform="translate(0)">
-            <text x="-25" y="172.5" class="twitter" data-testid="twitter">@${twitter}</text>
+            <text transform="matrix(0.9,0,0,0.9,10.1,11.4)" x="-39.1" y="103.9" class="twitter"
+                data-testid="twitter">@${twitter}</text>
         </g>
     </g>
 </svg>
