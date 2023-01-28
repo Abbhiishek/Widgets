@@ -1,15 +1,31 @@
 ![This is demo](https://wiidgets.vercel.app/api/banner?title=Abhishek%20Kushwaha&bio=Code%20|%20Community%20|%20Music&twitter=abbhishekstwt)
 
 
-```
+```md
 https://wiidgets.vercel.app/api/banner?title=Abhishek%20Kushwaha&bio=Code%20|%20Community%20|%20Music&twitter=abbhishekstwt
 ```
+
 
 # Paramaeters
 
 - title
 - bio
 - twitter
+
+----
+
+![WebDev's GitHub stats](https://wiidgets.vercel.app/api/github/repocard?owner=Abbhiishek&repo=Widgets&theme=codeSTACKr)
+
+```md
+https://wiidgets.vercel.app/api/github/repocard?owner=Abbhiishek&repo=Widgets&theme=codeSTACKr
+```
+# Paramaeters
+
+- owner
+- repo
+- theme
+
+----
 
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
