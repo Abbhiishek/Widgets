@@ -1,6 +1,8 @@
 {
+    "*": {
+        "type": "page"
+    },
     "index": "Home",
     "contact": "Contact Us",
-    "about": "About Us",
-    "feature": "Feature"
+    "about": "About Us"
 }
