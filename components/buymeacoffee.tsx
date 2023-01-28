@@ -78,10 +78,8 @@ export default function Coffee({ slug }: any) {
     <g onclick="redirect()">
         <rect x="1" y="-2" width="332" height="415" rx="23" fill="#fda700" onclick="redirect()" />
         <g>
-            <image transform="matrix(1.2,0,0,1.2,-28.3,-21.8)"
-                href="https://bmc-dev.s3.us-east-2.amazonaws.com/assets/icons/bmc_icon_black.png" x="110.5" y="80.2"
-                height="100" width="100" />
-        </g>
+        <image href="https://wiidgets.vercel.app/buymeacoffee.png" x="65" y="0" width="200" height="200" />
+    </g>
     
         <text textLength="240.8" font-size="24" x="41" y="236.5" fill="#000000">
             Buy Me A Coffee
