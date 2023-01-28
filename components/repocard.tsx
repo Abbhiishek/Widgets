@@ -62,7 +62,15 @@ export default function getRepo({ owner, name, description, homepage, created_at
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
             width: ;
         }
+        .homepage{
+            cursor: pointer;
+        }
     </style>
+    <script>
+            function redirect() {
+        window.open("${homepage}" , "_blank");
+        }
+        </script>
     <rect x="0" y="0" width="611" rx="15" height="249" fill="${Theme.bg_color || "#fff"}" />
     <g>
         <text class="login" font-size="13" textLength="0" x="29.2" y="33.1" fill="${Theme.text_color || "#000000"}">
@@ -75,8 +83,8 @@ export default function getRepo({ owner, name, description, homepage, created_at
         <text class="description" font-size="13" textLength="0" x="31.6" y="108.2" fill="${Theme.text_color || "#000000"}">
             ${description}
         </text>
-        <text x="35.9" y="174.1" fill="${Theme.text_color || "#000000"}">
-            🏠 Homepage : ${homepage}
+        <text x="35.9" y="174.1" fill="${Theme.text_color || "#000000"}" onclick="homepage()" class="homepage">
+            🏠 Homepage
         </text>
         <text x="34.9" y="196.1" fill="${Theme.text_color || "#000000"}">
             ⌚ ${(new Date(created_at)).toDateString()}
