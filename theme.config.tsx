@@ -7,7 +7,7 @@ const config: DocsThemeConfig = {
     },
     docsRepositoryBase: 'https://wiidgets.vercel.app/',
     footer: {
-        text: 'widgets - Made with ❤️ by Saptarshi & Abhishek $ NextJS',
+        text: 'widgets - Made with ❤️ by Abhishek $ NextJS',
     },
 }
 
