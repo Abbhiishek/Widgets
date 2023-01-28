@@ -28,10 +28,6 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     res.setHeader('Content-Type', 'image/svg+xml')
     res.statusCode = 200;
     return res.send(banner)
-
-
-
-
 }
 
 
