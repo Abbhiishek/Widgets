@@ -6,11 +6,6 @@ import { BannerThemes } from './../../themes/Banner/index'
 // import Banner from '../../components/banner'
 //? title , bio , twitter
 
-// const Banner = () => {
-//     return (
-//     )
-// }
-
 
 interface BannerTheme {
     gradient_color1: string;
@@ -19,21 +14,28 @@ interface BannerTheme {
     text_color: string;
 }
 
-// // get a repo proprty
+interface Iprops {
+    title: string;
+    bio: string;
+    twitter: string;
+    Theme: string;
+}
+
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {
 
 
-    const { title, bio, twitter, theme }: any = req.query
+    const title = req.query.title as string
+    const bio = req.query.bio as string
+    const twitter = req.query.twitter as string
+    const Themes: any = req.query.theme as string
 
     // search for the theme in themes
-    const Theme = BannerThemes[theme] as BannerTheme || BannerThemes.default as BannerTheme
+    // const Theme = BannerThemes[theme] as BannerTheme || BannerThemes.default as BannerTheme
+    const theme = Themes as keyof typeof BannerThemes;
+    const Theme = BannerThemes[theme] as BannerTheme || BannerThemes.default as BannerTheme;
 
-    // const theme = {
-    //     gradient_color1: "#BC6FF1",
-    //     gradient_color2: "#52057B",
-    //     fill: '#F2A6A6',
-    //     text_color: '#fff'
-    // }
+    // const Theme = BannerThemes[Themes] as BannerTheme || BannerThemes.default as BannerTheme
+
 
     const banner = await Banner({ title, bio, twitter, Theme })
 

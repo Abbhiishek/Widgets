@@ -1,102 +1,102 @@
 export const themes = {
-    default: {
+    "default": {
         title_color: "#2f80ed",
         icon_color: "#4c71f2",
         text_color: "#434d58",
         bg_color: "#fffefe",
         border_color: "#e4e2e2",
     },
-    default_repocard: {
+    "default_repocard": {
         title_color: "#2f80ed",
         icon_color: "#586069", // icon color is different
         text_color: "#434d58",
         bg_color: "#fffefe",
     },
-    transparent: {
+    "transparent": {
         title_color: "#006AFF",
         icon_color: "#0579C3",
         text_color: "#417E87",
         bg_color: "#ffffff00",
     },
-    dark: {
+    "dark": {
         title_color: "#fff",
         icon_color: "#79ff97",
         text_color: "#9f9f9f",
         bg_color: "#151515",
     },
-    radical: {
+    "radical": {
         title_color: "#fe428e",
         icon_color: "#f8d847",
         text_color: "#a9fef7",
         bg_color: "#141321",
     },
-    merko: {
+    "merko": {
         title_color: "#abd200",
         icon_color: "#b7d364",
         text_color: "#68b587",
         bg_color: "#0a0f0b",
     },
-    gruvbox: {
+    "gruvbox": {
         title_color: "#fabd2f",
         icon_color: "#fe8019",
         text_color: "#8ec07c",
         bg_color: "#282828",
     },
-    gruvbox_light: {
+    "gruvbox_light": {
         title_color: "#b57614",
         icon_color: "#af3a03",
         text_color: "#427b58",
         bg_color: "#fbf1c7",
     },
-    tokyonight: {
+    "tokyonight": {
         title_color: "#70a5fd",
         icon_color: "#bf91f3",
         text_color: "#38bdae",
         bg_color: "#1a1b27",
     },
-    onedark: {
+    "onedark": {
         title_color: "#e4bf7a",
         icon_color: "#8eb573",
         text_color: "#df6d74",
         bg_color: "#282c34",
     },
-    cobalt: {
+    "cobalt": {
         title_color: "#e683d9",
         icon_color: "#0480ef",
         text_color: "#75eeb2",
         bg_color: "#193549",
     },
-    synthwave: {
+    "synthwave": {
         title_color: "#e2e9ec",
         icon_color: "#ef8539",
         text_color: "#e5289e",
         bg_color: "#2b213a",
     },
-    highcontrast: {
+    "highcontrast": {
         title_color: "#e7f216",
         icon_color: "#00ffff",
         text_color: "#fff",
         bg_color: "#000",
     },
-    dracula: {
+    "dracula": {
         title_color: "#ff6e96",
         icon_color: "#79dafa",
         text_color: "#f8f8f2",
         bg_color: "#282a36",
     },
-    prussian: {
+    "prussian": {
         title_color: "#bddfff",
         icon_color: "#38a0ff",
         text_color: "#6e93b5",
         bg_color: "#172f45",
     },
-    monokai: {
+    "monokai": {
         title_color: "#eb1f6a",
         icon_color: "#e28905",
         text_color: "#f1f1eb",
         bg_color: "#272822",
     },
-    vue: {
+    "vue": {
         title_color: "#41b883",
         icon_color: "#41b883",
         text_color: "#273849",
@@ -114,13 +114,13 @@ export const themes = {
         text_color: "#a599e9",
         bg_color: "#2d2b55",
     },
-    nightowl: {
+    "nightowl": {
         title_color: "#c792ea",
         icon_color: "#ffeb95",
         text_color: "#7fdbca",
         bg_color: "#011627",
     },
-    buefy: {
+    "buefy": {
         title_color: "#7957d5",
         icon_color: "#ff3860",
         text_color: "#363636",
@@ -132,7 +132,7 @@ export const themes = {
         text_color: "#0cf574",
         bg_color: "#040f0f",
     },
-    algolia: {
+    "algolia": {
         title_color: "#00AEFF",
         icon_color: "#2DDE98",
         text_color: "#FFFFFF",
@@ -144,13 +144,13 @@ export const themes = {
         text_color: "#ffd95b",
         bg_color: "#000000",
     },
-    darcula: {
+    "darcula": {
         title_color: "#BA5F17",
         icon_color: "#84628F",
         text_color: "#BEBEBE",
         bg_color: "#242424",
     },
-    bear: {
+    "bear": {
         title_color: "#e03c8a",
         icon_color: "#00AEFF",
         text_color: "#bcb28d",
@@ -174,13 +174,13 @@ export const themes = {
         text_color: "#fff",
         bg_color: "#000",
     },
-    nord: {
+    "nord": {
         title_color: "#81a1c1",
         text_color: "#d8dee9",
         icon_color: "#88c0d0",
         bg_color: "#2e3440",
     },
-    gotham: {
+    "gotham": {
         title_color: "#2aa889",
         icon_color: "#599cab",
         text_color: "#99d1ce",
@@ -192,7 +192,7 @@ export const themes = {
         text_color: "#a6accd",
         bg_color: "#292d3e",
     },
-    graywhite: {
+    "graywhite": {
         title_color: "#24292e",
         icon_color: "#24292e",
         text_color: "#24292e",
@@ -216,7 +216,7 @@ export const themes = {
         text_color: "#ffffff",
         bg_color: "#000000",
     },
-    calm: {
+    "calm": {
         title_color: "#e07a5f",
         icon_color: "#edae49",
         text_color: "#ebcfb2",
@@ -228,146 +228,146 @@ export const themes = {
         text_color: "#509E2F",
         bg_color: "#ffffff",
     },
-    omni: {
+    "omni": {
         title_color: "#FF79C6",
         icon_color: "#e7de79",
         text_color: "#E1E1E6",
         bg_color: "#191622",
     },
-    react: {
+    "react": {
         title_color: "#61dafb",
         icon_color: "#61dafb",
         text_color: "#ffffff",
         bg_color: "#20232a",
     },
-    jolly: {
+    "jolly": {
         title_color: "#ff64da",
         icon_color: "#a960ff",
         text_color: "#ffffff",
         bg_color: "#291B3E",
     },
-    maroongold: {
+    "maroongold": {
         title_color: "#F7EF8A",
         icon_color: "#F7EF8A",
         text_color: "#E0AA3E",
         bg_color: "#260000",
     },
-    yeblu: {
+    "yeblu": {
         title_color: "#ffff00",
         icon_color: "#ffff00",
         text_color: "#ffffff",
         bg_color: "#002046",
     },
-    blueberry: {
+    "blueberry": {
         title_color: "#82aaff",
         icon_color: "#89ddff",
         text_color: "#27e8a7",
         bg_color: "#242938",
     },
-    slateorange: {
+    "slateorange": {
         title_color: "#faa627",
         icon_color: "#faa627",
         text_color: "#ffffff",
         bg_color: "#36393f",
     },
-    kacho_ga: {
+    "kacho_ga": {
         title_color: "#bf4a3f",
         icon_color: "#a64833",
         text_color: "#d9c8a9",
         bg_color: "#402b23",
     },
-    outrun: {
+    "outrun": {
         title_color: "#ffcc00",
         icon_color: "#ff1aff",
         text_color: "#8080ff",
         bg_color: "#141439",
     },
-    ocean_dark: {
+    "ocean_dark": {
         title_color: "#8957B2",
         icon_color: "#FFFFFF",
         text_color: "#92D534",
         bg_color: "#151A28",
     },
-    city_lights: {
+    "city_lights": {
         title_color: "#5D8CB3",
         icon_color: "#4798FF",
         text_color: "#718CA1",
         bg_color: "#1D252C",
     },
-    github_dark: {
+    "github_dark": {
         title_color: "#58A6FF",
         icon_color: "#1F6FEB",
         text_color: "#C3D1D9",
         bg_color: "#0D1117",
     },
-    discord_old_blurple: {
+    "discord_old_blurple": {
         title_color: "#7289DA",
         icon_color: "#7289DA",
         text_color: "#FFFFFF",
         bg_color: "#2C2F33",
     },
-    aura_dark: {
+    "aura_dark": {
         title_color: "#ff7372",
         icon_color: "#6cffd0",
         text_color: "#dbdbdb",
         bg_color: "#252334",
     },
-    panda: {
+    "panda": {
         title_color: "#19f9d899",
         icon_color: "#19f9d899",
         text_color: "#FF75B5",
         bg_color: "#31353a",
     },
-    noctis_minimus: {
+    "noctis_minimus": {
         title_color: "#d3b692",
         icon_color: "#72b7c0",
         text_color: "#c5cdd3",
         bg_color: "#1b2932",
     },
-    cobalt2: {
+    "cobalt2": {
         title_color: "#ffc600",
         icon_color: "#ffffff",
         text_color: "#0088ff",
         bg_color: "#193549",
     },
-    swift: {
+    "swift": {
         title_color: "#000000",
         icon_color: "#f05237",
         text_color: "#000000",
         bg_color: "#f7f7f7",
     },
-    aura: {
+    "aura": {
         title_color: "#a277ff",
         icon_color: "#ffca85",
         text_color: "#61ffca",
         bg_color: "#15141b",
     },
-    apprentice: {
+    "apprentice": {
         title_color: "#ffffff",
         icon_color: "#ffffaf",
         text_color: "#bcbcbc",
         bg_color: "#262626",
     },
-    moltack: {
+    "moltack": {
         title_color: "#86092C",
         icon_color: "#86092C",
         text_color: "#574038",
         bg_color: "#F5E1C0",
     },
-    codeSTACKr: {
+    "codeSTACKr": {
         title_color: "#ff652f",
         icon_color: "#FFE400",
         text_color: "#ffffff",
         bg_color: "#09131B",
         border_color: "#0c1a25",
     },
-    rose_pine: {
+    "rose_pine": {
         title_color: "#9ccfd8",
         icon_color: "#ebbcba",
         text_color: "#e0def4",
         bg_color: "#191724",
     },
-    date_night: {
+    "date_night": {
         title_color: "#DA7885",
         text_color: "#E1B2A2",
         icon_color: "#BB8470",
