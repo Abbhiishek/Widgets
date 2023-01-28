@@ -23,7 +23,12 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
 
 
     // get the repo data from github
-    const data = await fetch(`https://api.github.com/users/${User}`)
+    const data = await fetch(`https://api.github.com/users/${User}`, {
+        headers: {
+            'Accept': 'application/vnd.github.v3+json',
+            "Authorization": "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"
+        }
+    })
     const Org = await fetch(`https://api.github.com/users/${User}/orgs`)
     const org = await Org.json()
     // get the length of org
@@ -42,7 +47,8 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
         followers,
         following,
         created_at,
-        email
+        email,
+        html_url
 
     } = repoData
     // get the hmtl code 
@@ -61,6 +67,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
         created_at,
         email,
         orgLength,
+        html_url,
         Theme
     })
 

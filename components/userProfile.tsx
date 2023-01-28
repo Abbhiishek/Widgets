@@ -12,6 +12,7 @@ export default function UserProfile({ login,
     email,
     followers,
     following,
+    html_url,
     created_at, Theme, orgLength }: any) {
     return (
         `
@@ -59,7 +60,6 @@ export default function UserProfile({ login,
     <text fill="${Theme.text_color || "#000000"}" font-size="18" x="263.7" y="233.5">
     ${orgLength} 🧑‍💻
     </text>
-    <image href="${avatar_url}" x="398" class="profile_image" y="26" height="216" width="220" />
 </svg>`
     )
 };
