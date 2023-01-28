@@ -34,7 +34,6 @@ export default function UserProfile({ login,
     
     <rect x="0" y="0" width="642" height="274" rx="22" fill="${Theme.bg_color || "#fff"}" />
     <circle cx="507" cy="132" r="100" fill="#f90000" />
-    <image href="${avatar_url}" x="398" y="26" height="216" width="220" />
     <text font-size="32" textLength="0" x="38" y="61.2" fill="${Theme.title_color || "#000000"}">
     ${name}
     </text>
