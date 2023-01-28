@@ -1,0 +1,48 @@
+# Welcome to the Github API Endpoint!
+
+![](https://wiidgets.vercel.app/api/banner?title=Github%20API%20Endpoint&bio=title%C2%B7bio%C2%B7twitter&twitter=widgets)
+
+## What is this API endpoint for?
+Banner API Endpoint provides a `1500 X 500` banner with title , bio and twitter handle.
+
+## UseCase
+You can use this API endpoint to create a banner for your github profile or any other website.
+
+## How to use this API endpoint?
+
+To get started, simply make a GET request to the following URL:
+
+
+```bash
+https://wiidgets.vercel.app/api/banner?
+```
+### Query Parameters
+The following query parameters are available for use in the API endpoint:
+
+- `title (string)`   : The title of the widget. This can be any string up to 100 characters in length.
+- `bio (string)`     : The bio of the widget. This can be any string up to 200 characters in length.
+- `twitter (string)` : The Twitter handle of the user. This should be a string without the '@' symbol.
+
+
+### Example
+
+Here's an example of how you might use the API to create a widget with the title "Contact Us", bio "Api Endpoint For Github Widgets" and twitter handle "widgets":
+
+```perl
+https://wiidgets.vercel.app/api/banner?title=Contact%20Us&bio=Api%20Endpoint%20For%20Github%20Widgets&twitter=widgets
+```
+### Responses
+The API endpoint returns a SVG file as response which can be directly used on website or application.
+
+![](https://wiidgets.vercel.app/api/banner?title=Contact%20Us&bio=Api%20Endpoint%20For%20Github%20Widgets&twitter=widgets)
+
+## Note
+Please make sure that you are passing all the parameter otherwise it will fail to create a svg.
+If you want to use your own `css styling` please use svg class and do not change the structure of svg as it may break the widget.
+
+
+### Happy Coding!
+
+
+### Disclaimer
+We are not affiliated with Github in any way. Use this API on your own risk.
