@@ -1,7 +1,4 @@
 {
-    "*": {
-        "type": "page"
-    },
     "index": "Home",
     "contact": "Contact Us",
     "about": "About Us"

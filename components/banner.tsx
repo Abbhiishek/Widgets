@@ -1,14 +1,14 @@
 import '../styles/globals.css'
 
 
-export default function Banner({ title, bio, twitter, theme }: any) {
+export default function Banner({ title, bio, twitter, Theme }: any) {
     return (
         `
-        <svg xmlns="http://www.w3.org/2000/svg" width="1500" height="500" fill="#000000" role="img" aria-labelledby="descId">
+        <svg xmlns="http://www.w3.org/2000/svg" width="1500" height="500" fill="${Theme?.fill} || #000000" role="img" aria-labelledby="descId">
     <defs>
         <linearGradient id="myGradient" gradientTransform="rotate(90)">
-            <stop offset="5%" stop-color="${theme?.gradient_color1 || "#2A1157"}" />
-            <stop offset="95%" stop-color="${theme?.gradient_color2 || "#862263"}" />
+            <stop offset="5%" stop-color="${Theme?.gradient_color1 || "#2A1157"}" />
+            <stop offset="95%" stop-color="${Theme?.gradient_color2 || "#862263"}" />
         </linearGradient>
     </defs>
     <title id="titleId">${title}</title>
@@ -20,14 +20,14 @@ export default function Banner({ title, bio, twitter, theme }: any) {
 
         .header {
             font: 500 105px 'Segoe UI', Ubuntu, Sans-Serif;
-            fill: ${theme?.text_color || "#ffffff"};
+            fill: ${Theme?.text_color || "#ffffff"};
             animation: fadeInAnimation 0.8s ease-in-out forwards;
             text-align: center;
         }
 
         .tagline {
             font: 200 50px Cambria, Ubuntu, Sans-Serif;
-            fill: ${theme?.text_color || "#ffffff"};
+            fill: ${Theme?.text_color || "#ffffff"};
             font-style: italic;
             animation: fadeInAnimation 0.8s ease-in-out forwards;
             text-align: center;
@@ -35,7 +35,7 @@ export default function Banner({ title, bio, twitter, theme }: any) {
 
         .twitter {
             font: 200 40px Cambria, Ubuntu, Sans-Serif;
-            fill: ${theme?.text_color || "#ffffff"};
+            fill: ${Theme?.text_color || "#ffffff"};
             font-style: italic;
             animation: fadeInAnimation 0.8s ease-in-out forwards;
             text-align: center;
