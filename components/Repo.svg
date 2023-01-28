@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+    <style>
+        .circle {
+            border: 2px solid #000;
+        }
+    </style>
+    <rect x="15" y="76.7" width="357.5" height="179.2" fill="rgb(255, 255, 255)" />
+    <g>
+        <text textLength="198" font-size="24" x="31" y="119.1" fill="#0400ff">
+            Abhishek Kushwaha
+        </text>
+    </g>
+    <g>
+        <ellipse cx="292.1" cy="162.8" rx="59.7" ry="56.8" class="circle" />
+        <text font-size="49.1" textLength="60.3" x="266" y="176.4" fill="#ffffff">A+</text>
+    </g>
+
+
+</svg>

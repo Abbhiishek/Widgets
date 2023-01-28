@@ -1,0 +1,52 @@
+
+Only Api endpoint you need for GitHub widgets
+
+![Demo](https://widgets.abbhiishek.repl.co/api/banner?title=Widgets&bio=Api%20Endpoint%20For%20Github%20Widgets&twitter=widgets)
+
+### The problem Widgets solves
+
+
+Our API endpoint provides a simple and easy way to display various types of data from GitHub in a visual and interactive manner. With our API endpoint, users can easily create beautiful widgets that display data such as repository information, user activity, and much more.
+
+One of the main benefits of our API endpoint is that it allows users to quickly and easily gain insights into their GitHub data. For example, a developer could use our widgets to track the progress of their repositories, see how many people are contributing to their projects, or view statistics about their commits and pull requests. This can be especially useful for open-source projects, as it provides a way for contributors and maintainers to quickly see the activity on a project at a glance.
+
+Our API endpoint also makes it easy for users to customize the appearance of the widgets. By using SVG and JavaScript, we were able to create visualizations that are highly customizable and can be easily styled to match the look and feel of the user's website or application.
+
+Additionally, our API endpoint is built with performance and scalability in mind. By using Next.js, we were able to create a server-rendered application that can handle a large number of requests and provide a fast and responsive user experience.
+
+Overall, our API endpoint provides a simple and powerful way to display GitHub data in a visual and interactive manner, making it a great tool for developers, open-source projects and anyone who wants to gain insights into their GitHub data.
+
+
+### Challenges we ran into
+
+- SVG OVER HTML
+
+First challenge we encountered was determining the best format to send the data in the API response. We initially considered using JSON, but found that it wasn't the best option for displaying the visualizations. After some experimentation, we found that using SVG (Scalable Vector Graphics) provided the most flexibility and allowed us to create high-quality visualizations that could be easily rendered on different devices and screen sizes. Additionally, SVG is a widely supported format, making it easy to display the visualizations in a variety of contexts.
+To implement this, we used some SVG Design Tools to create the SVG elements and then used JavaScript to bind the data and update the visualizations in real time as the data changed. This allowed us to create interactive and dynamic visualizations that provided a great user experience.
+
+- The Framework Game
+Another challenge we encountered while building the API endpoint was choosing the best framework for handling the API requests. Initially, we considered using a Python framework such as Flask or Django, as they are popular and well-established options for building web applications. However, we soon realized that using a JavaScript framework would be more suitable for our project as it would allow us to easily handle network requests and interact with the front-end of the application.
+
+After evaluating several options, we decided to use Next.js, a framework for building server-rendered React applications. Next.js made it easy to handle the API requests and allowed us to easily integrate the widgets into the front-end of the application. Additionally, Next.js has built-in support for server-side rendering, which allowed us to improve the performance of the application and provide a better user experience.
+
+Furthermore, Next.js has built-in features like automatic code splitting and optimized production builds which made it easy for us to manage the project and make it production ready.
+
+Overall, using Next.js was a great choice for our project as it allowed us to easily handle the API requests and create a high-performance and user-friendly application.
+
+- Customizable Styles
+
+
+One of the main features of our API endpoint is that it allows users to easily customize the appearance of the widgets. To implement this, we used CSS variables to allow users to easily change the colors and styles of the widgets. This allowed us to create highly customizable widgets that could be easily styled to match the look and feel of the user's website or application.
+Another challenge we faced was making sure that the widgets were responsive and looked good on different screen sizes. We solved this by using CSS media queries to adjust the layout of the widgets based on the screen size.
+
+Overall, we faced some challenges but by utilizing different libraries, techniques and testing the project multiple time we were able to overcome them and completed the project successfully.
+
+### Technologies we used
+
+- Next.js
+- CSS
+- SVG
+- GitHub API
+- Vercel
+- Nextra
+- Replit
