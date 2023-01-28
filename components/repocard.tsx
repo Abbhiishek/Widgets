@@ -67,7 +67,7 @@ export default function getRepo({ owner, name, description, homepage, created_at
         }
     </style>
     <script>
-            function redirect() {
+            function homepage() {
         window.open("${homepage}" , "_blank");
         }
         </script>
