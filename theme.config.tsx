@@ -1,6 +1,6 @@
 import React from 'react'
-
-const config = {
+import { DocsThemeConfig } from 'nextra-theme-docs'
+const config: DocsThemeConfig = {
     logo: <span>Widgets</span>,
     project: {
         link: 'https://github.com/Abbhiishek/Widgets',
